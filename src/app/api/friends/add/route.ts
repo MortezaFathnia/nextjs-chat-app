@@ -8,7 +8,6 @@ import {z} from "zod"
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    console.log(body)
 
     const { email: emailToAdd } = addFriendValidator.parse(body.email);
 
