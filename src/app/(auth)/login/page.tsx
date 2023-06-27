@@ -5,8 +5,6 @@ import {signIn} from 'next-auth/react';
 import Logo from '@/components/svg/logo.svg'
 import {toast} from 'react-hot-toast';
 
-console.log(Logo);
-
 interface pageProps {}
 
 const Page: FC<pageProps> = ({}) => {
