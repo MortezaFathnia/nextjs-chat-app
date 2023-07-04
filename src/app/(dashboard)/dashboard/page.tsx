@@ -7,9 +7,8 @@ interface  pageProps {
 }
  
 const page : FC<pageProps> = async({}) => {
-  const session=await getServerSession(authOptions);
   return (
-    <pre>{JSON.stringify(session)}</pre>
+    <div>Dashboard</div>
   );
 }
  
